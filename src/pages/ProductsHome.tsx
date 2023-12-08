@@ -1,7 +1,9 @@
+import { ProductCards } from "../components/ProductCards"
+
 export const ProductsHome = ()=>{
   return(
     <div>
-      <h1>HELLO WORLD</h1>
+      <ProductCards/>
     </div>
   )
 }
