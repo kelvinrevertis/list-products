@@ -1,21 +1,29 @@
 .ProductFilter {
-  width: 25%;
   margin-left: 10px;
-  font-family: "Roboto", sans-serif;
 
   .containerFilter {
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .headerBorder {
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid #5fccbc;
+    outline: none;
+    padding-right: 30px;
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
   }
 
   .containerOptions {
-      margin-top: 10px;
+    margin-top: 10px;
 
-      .option {
-          margin: 5px 0;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-      }
+    .option {
+      margin: 5px 0;
+      white-space: nowrap;
+      overflow: hidden;
+    }
   }
 }

@@ -12,7 +12,7 @@ export const ProductCards = ({ selectedCategories, productName }) => {
 
   return (
     <div className={styles.productContainer}>
-      <p>
+      <p className={styles.headerBorder}>
         <strong>{filteredProducts.length}</strong> Resultados
       </p>
       <hr />

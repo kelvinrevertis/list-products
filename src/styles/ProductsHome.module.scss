@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+
+
+  span {
+    color: #5fccbc;
+  }
+  h1 {
+    margin: 10px 20px;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .search {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .sidebar {
+      width: 30%;
+      padding: 20px;
+    }
+
+    .product-cards {
+      width: 80%;
+      padding: 20px;
+    }
+  }
+}
